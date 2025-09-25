@@ -44,13 +44,4 @@ https://test-by-shayan.puter.site/
 
 > If `puter.ai.chat()` returns an authentication error, sign into Puter in the same browser session and try again.
 
-## How to publish to GitHub
-```bash
-git init
-git add .
-git commit -m "Initial commit — Puter.js chat demo (from prompt.md)"
-# Create a GitHub repo (replace <your-username>)
-gh repo create puterjs-chat --public --source=. --remote=origin --push
-# OR manually create a repo on github.com and push:
-git remote add origin https://github.com/<your-username>/puterjs-chat.git
-git push -u origin main
+
