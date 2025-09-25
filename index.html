@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Puter.js — Chat Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://js.puter.com/v2/"></script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Puter.js Chat Demo</h1>
+      <p class="subtitle">A minimal open-source demo that calls <code>puter.ai.chat()</code></p>
+    </header>
+    <main id="chat" class="chat" aria-live="polite"></main>
+    <form id="composer" class="composer" autocomplete="off">
+      <input id="input" aria-label="Message" placeholder="Type a message and press Enter" required />
+      <button type="submit">Send</button>
+    </form>
+    <footer class="site-footer">
+      <small>
+        <a href="README.md">README</a> •
+        <a href="https://developer.puter.com" target="_blank" rel="noopener noreferrer">Powered by Puter</a>
+      </small>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
